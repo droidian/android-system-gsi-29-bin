@@ -4,4 +4,4 @@
 	dh $@
 
 override_dh_auto_build:
-	$(CURDIR)/download.sh
+	$(CURDIR)/download.sh $(DEB_HOST_ARCH)

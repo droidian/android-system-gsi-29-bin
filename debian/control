@@ -11,7 +11,7 @@ Vcs-Browser: https://github.com/droidian/android-system-gsi-29-bin
 Vcs-Git: https://github.com/droidian/android-system-gsi-29-bin.git
 
 Package: android-system-gsi-29
-Architecture: arm64
+Architecture: arm64 armhf
 Depends: ${misc:Depends}
 Provides: android-system-image
 Description: Android System Image - gsi-29
