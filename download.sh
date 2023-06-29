@@ -2,7 +2,7 @@
 
 set -e
 
-source ./download.conf
+source ./download.conf $1
 
 info() {
 	echo "I: $@"
